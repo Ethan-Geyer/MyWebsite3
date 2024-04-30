@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Ethan Geyer
+Ethan Geyer
+IT Technician 
 
 Show Contacts
 
 Email
-richard@example.com
+elcgeyer2000@outlook.com
 
 Phone
-+1 (213) 352-2795
++1 (304) 707-5803
 
 Birthday
-June 23, 1982
+Feb, 13th. 
 
 Location
-Sacramento, California, USA
+Hedgesville, WV, USA
 
 # navbar
 
@@ -32,12 +32,13 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+Hello, my name is Ethan. I am a Level 2 Technician with over 6 years of experience in the IT industry. My work involves dealing with various types of hardware including servers, laptops, and desktops.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+I have a Bachelor's degree in Web and Mobile Development, which has equipped me with a diverse set of skills and knowledge. This educational background, combined with my practical experience, allows me to tackle a wide range of technical challenges.
 
 
-## service
+Being in the IT field, I am constantly learning and adapting to new technologies and trends. I am passionate about what I do and always strive to provide the best solutions for any IT-related issues
+and services.
 
 What i'm doing
 
@@ -93,17 +94,10 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Liberty University
+2018 — 2024
+Web and Mobile Development
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
-
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
 
 Experience
 
@@ -121,14 +115,14 @@ Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corru
 
 My skills
 
-Web design
+Troubleshooting
 80%
-Graphic design
-70%
-Branding
+Windows Server
+60%
+Windows Desktop
 90%
-WordPress
-50%
+Networking
+30%
 
 
 
