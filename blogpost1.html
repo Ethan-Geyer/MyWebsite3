@@ -3,41 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maximizing Smartphone Battery Longevity</title>
+    <title>Responsive Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Maximizing Smartphone Battery Longevity</h1>
-        <p><em>By Ethan Geyer 7/30/17</em></p>
-        <p>With every new generation, smartphones are becoming more powerful and efficient, but their prices are rising exponentially. This often makes us hesitant to purchase a new phone every year. Therefore, it's essential to get the most out of your current device by keeping it in the best possible condition. However, this is becoming increasingly difficult due to the rapid advancements in technology, particularly the quality of batteries, which often fall short. The battery life of smartphones can be quite disappointing given how much we rely on them.</p>
-        <p>To address this issue, I decided to write a "How to" article to help you extend the life of your smartphone battery.</p>
-        <h2>Maximizing Battery Longevity</h2>
-        <p>You might be wondering, “How can I get the most out of my battery and avoid buying a new smartphone every year?” Here are some tips and tricks based on my experience and knowledge of current smartphone operations. These tips won't make your phone last forever, nor will they extend the life of a single charge, but they will improve your battery's longevity, potentially extending the overall lifespan of your device beyond a single year.</p>
-        <h3>Cables Matter</h3>
-        <p>Let's start with cables. You might think, "Cables? What do they have to do with battery life?" The answer is everything. The cable that comes with your device, or those made by the manufacturer, are the best options. For Apple products, these need to be MFI certified cables. Why? Because the manufacturer designed the device and knows how to charge it correctly. Generic or knock-off cables, like those found near supermarket registers, can harm your device. Always use the original or manufacturer-recommended cables.</p>
-        <h3>The Wall Adapter</h3>
-        <p>The wall adapter is equally important. Without it, your cable would just be dangling aimlessly. Use the equipment provided by the manufacturer. For example, I use an iPhone X, which supports fast charging with Apple’s 87W USB-C wall adapter. Using this requires a USB-C to Lightning cable. Most smartphones with fast charging capabilities can safely use similar high-quality adapters from reputable brands.</p>
-        <h3>Wireless Charging</h3>
-        <p>Wireless charging is a reliable option if it is Qi certified. Qi is the standard for wireless charging, ensuring that the product meets specific guidelines. Look for the Qi certification label when purchasing a wireless charging pad.</p>
-        <h3>Battery Maintenance Tips</h3>
-        <ol>
-            <li><strong>Keep Your Battery Above 50%:</strong> Try to keep your phone's battery above 50% whenever possible. Lithium-ion batteries have a finite number of charge cycles, and keeping the battery above 50% helps extend its overall lifespan.</li>
-            <li><strong>Minimize Background Processes:</strong> Limit active location services and background app refreshes. This reduces battery drain when you're not actively using your phone.</li>
-            <li><strong>Maintain Safe Operating Temperatures:</strong> Avoid exposing your phone to extreme temperatures. The safe range is between 32°F and 95°F. Extreme cold or heat can damage the battery, causing it to expand or contract and potentially lose its shape or functionality.</li>
-        </ol>
-        <h3>Conclusion</h3>
-        <p>By following these tips, you can significantly improve your smartphone battery's lifespan. While these measures won't make your battery last forever, they will help you get more life out of your current device. As technology advances, we can hope for better battery life, but until then, these tips will help you make the most of your current smartphone.</p>
-        <h3>References</h3>
-        <ul>
-            <li>IRevive (2017, June 30). "MFI Certified Cables and Why They Are Important". <a href="https://irevivegreenville.com/mfi-certified-cables-and-why-they-are-important/">Link</a></li>
-            <li>Apple Support (2018, September 20). "Fast Charging Your iPhone". <a href="https://support.apple.com/en-us/HT208137">Link</a></li>
-            <li>Gouda (2017, October 6). "The Importance of Qi Certification". <a href="https://www.wirelesspowerconsortium.com/blog/275/the-importance-of-qi-certification">Link</a></li>
-            <li>Qi Wireless Power Consortium (2008). Qi Logo. Retrieved from <a href="https://en.wikipedia.org/wiki/Qi_(standard)">Wikipedia</a></li>
-            <li>Ben Patterson (2016, January 18). "4 Ways to Take Charge of iOS’s Background App Refresh Feature". <a href="https://www.macworld.com/article/3020539/apple-phone/4-ways-to-take-charge-of-ioss-background-app-refresh-feature.html">Link</a></li>
-            <li>Jerry Hildenbrand (2018, January 23). "Location Services: Which Option Is Right for You?". <a href="https://www.androidcentral.com/location-services-whats-difference-between-choices-and-which-should-i-pick">Link</a></li>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+            <figure class="avatar-box">
+                <img src="./assets/images/avatar.png" alt="John Doe">
+            </figure>
+            <div class="info-content">
+                <h1 class="name" title="John Doe">John Doe</h1>
+                <p class="title">Frontend Developer</p>
+            </div>
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+        </div>
+        <div class="sidebar-info_more">
+            <div class="separator"></div>
+            <ul class="contacts-list">
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+                        <a href="mailto:john.doe@gmail.com" class="contact-link">john.doe@gmail.com</a>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Phone</p>
+                        <a href="tel:+1234567890" class="contact-link">+1234567890</a>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Birthday</p>
+                        <time datetime="1990-01-01">January 1, 1990</time>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+                        <address>New York, USA</address>
+                    </div>
+                </li>
+            </ul>
+            <div class="separator"></div>
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- ABOUT -->
+        <article class="about active" data-page="about">
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+            <section class="about-text">
+                <p>
+                    Hello! I’m John Doe, a passionate Frontend Developer with experience in creating dynamic and responsive websites. My journey in web development started in high school, and since then, I've honed my skills through various projects and collaborations.
+                </p>
+                <p>
+                    I specialize in HTML, CSS, JavaScript, and have experience working with frameworks like React and Angular. I love bringing designs to life and ensuring they work flawlessly across different devices.
+                </p>
+            </section>
+        </article>
+    </main>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item">
+                <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+            <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
         </ul>
-    </div>
+    </nav>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
-
